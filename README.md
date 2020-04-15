@@ -2,6 +2,27 @@
 
 API allows you to connect pc to Rozum Robotics IOBoard and simply make control via input/output commands
 
+Setting communication with the IO Board v1.0.3
+
+1. Switch on your PC.
+2. In the right corner of the Taskbar, left-click the network connection indicator.
+![screenshot of sample](screenshots/Taskbar.jpg)
+3. Select an active Ethernet connection next to the network connection indicator. The
+connection name can differ, depending on your network settings.
+![screenshot of sample](screenshots/Taskbar2.jpg)
+4. In the displayed Ethernet settings window, click Change adapter options.
+![screenshot of sample](screenshots/ChangeAdapterOptions.jpg)
+5. In the displayed Network Connections window, right-click the Ethernet icon and
+select Properties.
+![screenshot of sample](screenshots/Properties.jpg)
+6. On the Networking tab in the displayed Ethernet properties window, double-click
+Internet Protocol Version 4 (TCP/IPv4).
+![screenshot of sample](screenshots/EthernetProperties.jpg)
+7. In the IP Version 4 (TCP/IPv4) window, select Use the following IP address and
+set up the IP address and the Subnet Mask fields to the value as shown below.
+![screenshot of sample](screenshots/IPVersion.jpg)
+8. Click OK to confirm the settings.
+
 ## Connect to IOBoard:
 
                 from io_board import IOBoard
