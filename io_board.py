@@ -46,10 +46,6 @@ class IOBoard:
             512: 10,
             1024: 11,
             2048: 12,
-            4096: 13,
-            8192: 14,
-            16384: 15,
-            32768: 16
             }
 
     def __resetIO(self):
@@ -108,7 +104,7 @@ class IOBoard:
         return self.__bitesCounter
 
     def get_digital_input(self, numberInput: int) -> bool:
-        if numberInput not in self.__digital_output_bites.values():
+        if numberInput not in self.__digital_input_bites.values():
             raise AssertionError(f'Incorrect input pin number {numberInput}')
 
         listOfInputs = self.get_digital_inputs()
