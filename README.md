@@ -21,7 +21,9 @@ connection name can differ, depending on your network settings.
 5. In the displayed Network Connections window, right-click the Ethernet icon and
 select Properties.
 
+<p align='center'>
 ![screenshot of sample](screenshots/Properties.jpg)
+</p>
 
 6. On the Networking tab in the displayed Ethernet properties window, double-click
 Internet Protocol Version 4 (TCP/IPv4).
